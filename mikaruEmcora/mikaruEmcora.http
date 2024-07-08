@@ -1,0 +1,6 @@
+@mikaruEmcora_HostAddress = http://localhost:5084
+
+GET {{mikaruEmcora_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

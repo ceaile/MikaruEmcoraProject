@@ -1,0 +1,15 @@
+﻿using MikaruEmcora.Core.Entities.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MikaruEmcora.Core.Entities {
+    public class Media :BaseEntity {
+        public string Path { get; set; }
+        public string Title { get; set; }
+        public string AltText { get; set; }
+
+    }
+}
