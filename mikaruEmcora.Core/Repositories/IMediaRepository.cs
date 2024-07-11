@@ -12,6 +12,6 @@ namespace MikaruEmcora.Core.Repositories
     public interface IMediaRepository : IRepository<Media>
     {
         //not really neccessary for this project, but since we're learning from a course, let's leave it there
-        Task<IEnumerable<Media>> GetMediaByTitleAsync(string AltText);
+        Task<IEnumerable<Media>> GetMediaObjByTitleAsync(string AltText);
     }
 }

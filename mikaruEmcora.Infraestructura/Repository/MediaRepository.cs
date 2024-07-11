@@ -14,7 +14,7 @@ namespace MikaruEmcora.Infraestructure.Repository {
         public MediaRepository(MikaruEmcoraContext dbContext) : base(dbContext) { }
 
 
-        public async Task<IEnumerable<Media>> GetMediaByTitleAsync(string mediaTitle) { //probablemente no lo use
+        public async Task<IEnumerable<Media>> GetMediaObjByTitleAsync(string mediaTitle) { //probablemente no lo use
             return await dbContext.MediaObjs
                 .Where(x => x.Title.Contains(mediaTitle))
                 .ToListAsync();

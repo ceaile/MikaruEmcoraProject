@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.infraestructura\\repository\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|solutionrelative:mikaruemcora.infraestructura\\repository\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.core\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|solutionrelative:mikaruemcora.core\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.core\\repositories\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|solutionrelative:mikaruemcora.core\\repositories\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.infraestructura\\data\\mikaruemcoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|solutionrelative:mikaruemcora.infraestructura\\data\\mikaruemcoracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.infraestructura\\repository\\base\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}|mikaruEmcora.Infraestructura\\mikaruEmcora.Infraestructure.csproj|solutionrelative:mikaruemcora.infraestructura\\repository\\base\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora.core\\repositories\\base\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAAD9511-4EBD-4BD8-A6EE-42A67A1F395B}|mikaruEmcora.Core\\mikaruEmcora.Core.csproj|solutionrelative:mikaruemcora.core\\repositories\\base\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|solutionrelative:mikaruemcora\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMediaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Repositories\\IMediaRepository.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Core\\Repositories\\IMediaRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Repositories\\IMediaRepository.cs",
-              "RelativeToolTip": "mikaruEmcora.Core\\Repositories\\IMediaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:06:21.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Media.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Entities\\Media.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Core\\Entities\\Media.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Entities\\Media.cs",
-              "RelativeToolTip": "mikaruEmcora.Core\\Entities\\Media.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:58:37.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MediaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Repository\\MediaRepository.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Infraestructura\\Repository\\MediaRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Repository\\MediaRepository.cs",
-              "RelativeToolTip": "mikaruEmcora.Infraestructura\\Repository\\MediaRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowBEAAAAaAAAA",
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "mikaruEmcora\\Controllers\\MediaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "mikaruEmcora\\Controllers\\MediaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:53:04.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Repositories\\Base\\IRepository.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Core\\Repositories\\Base\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Core\\Repositories\\Base\\IRepository.cs",
-              "RelativeToolTip": "mikaruEmcora.Core\\Repositories\\Base\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T13:35:27.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Repository\\Base\\Repository.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Infraestructura\\Repository\\Base\\Repository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Repository\\Base\\Repository.cs",
-              "RelativeToolTip": "mikaruEmcora.Infraestructura\\Repository\\Base\\Repository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T11:21:12.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MikaruEmcoraContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Data\\MikaruEmcoraContext.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora.Infraestructura\\Data\\MikaruEmcoraContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora.Infraestructura\\Data\\MikaruEmcoraContext.cs",
-              "RelativeToolTip": "mikaruEmcora.Infraestructura\\Data\\MikaruEmcoraContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T11:15:16.054Z",
+              "WhenOpened": "2024-07-11T14:50:37.698Z",
               "EditorCaption": ""
             }
           ]
