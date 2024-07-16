@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|c:\\users\\admin\\source\\repos\\mikaruemcora\\mikaruemcora\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|c:\\users\\admin\\source\\repos\\mikaruemcoraproject\\mikaruemcora\\mikaruemcora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|solutionrelative:mikaruemcora\\mikaruemcora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|c:\\users\\admin\\source\\repos\\mikaruemcoraproject\\mikaruemcora\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|solutionrelative:mikaruemcora\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|c:\\users\\admin\\source\\repos\\mikaruemcoraproject\\mikaruemcora\\dtos\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF326BA8-A8C1-498A-857E-C2EA583B2518}|mikaruEmcora\\MikaruEmcora.csproj|solutionrelative:mikaruemcora\\dtos\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MediaController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora\\Controllers\\MediaController.cs",
-              "RelativeDocumentMoniker": "mikaruEmcora\\Controllers\\MediaController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\mikaruEmcora\\mikaruEmcora\\Controllers\\MediaController.cs",
-              "RelativeToolTip": "mikaruEmcora\\Controllers\\MediaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T14:50:37.698Z",
+              "Title": "MikaruEmcora.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\MikaruEmcora.csproj",
+              "RelativeDocumentMoniker": "mikaruEmcora\\MikaruEmcora.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\MikaruEmcora.csproj",
+              "RelativeToolTip": "mikaruEmcora\\MikaruEmcora.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T10:47:58.326Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MediaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\DTOs\\MediaDTO.cs",
+              "RelativeDocumentMoniker": "mikaruEmcora\\DTOs\\MediaDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\DTOs\\MediaDTO.cs",
+              "RelativeToolTip": "mikaruEmcora\\DTOs\\MediaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:58:44.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "mikaruEmcora\\Controllers\\MediaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MikaruEmcoraProject\\mikaruEmcora\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "mikaruEmcora\\Controllers\\MediaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:50:37.698Z"
             }
           ]
         }

@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <ProjectReference Include="..\mikaruEmcora.Application\MikaruEmcora.Application.csproj" />
+	  
   </ItemGroup>
 
 </Project>

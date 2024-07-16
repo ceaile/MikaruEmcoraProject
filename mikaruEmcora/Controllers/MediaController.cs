@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using MikaruEmcora.Application.Interfaces;
 
 namespace MikaruEmcora.Controllers {
     [ApiController]
