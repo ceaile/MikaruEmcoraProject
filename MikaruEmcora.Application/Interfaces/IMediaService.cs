@@ -14,6 +14,7 @@ namespace MikaruEmcora.Application.Interfaces {
         Task<IEnumerable<Media>> GetMediaList();
         Task<Media> GetMediaObjById(int mediaObjId);
         Task<IEnumerable<Media>> GetMediaObjByName(string mediaObj);
+        Task<Media> Create(Media mediaObj);
         Task Update(Media mediaObj);
         Task Delete(Media mediaObj);
     }

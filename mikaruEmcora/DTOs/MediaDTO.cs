@@ -6,6 +6,7 @@ namespace MikaruEmcora.DTOs {
      *  podria separarse las propiedades de la entidad en diferentes dto con las propiedades para el publico
      *  y las que han de updatearse o las privadas que son de info sensible.
      *  no es recomendable usar la entidad como dto
+     *  
      */
     public class MediaDTO : BaseDTO {
 
