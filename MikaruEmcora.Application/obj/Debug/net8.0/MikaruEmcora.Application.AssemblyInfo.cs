@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MikaruEmcora.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7375e00bfa2bcda019d2c0943e0f9e87b8dc01cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6847c4aa9adf41ebf18aaf462f030785bba2fdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MikaruEmcora.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MikaruEmcora.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

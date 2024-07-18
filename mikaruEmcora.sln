@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikaruEmcora.Core", "mikaru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikaruEmcora.Infraestructure", "mikaruEmcora.Infraestructura\MikaruEmcora.Infraestructure.csproj", "{D876DDA7-F076-49C3-AC85-2C1BBAD6D8E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikaruEmcora.Application", "MikaruEmcora.Application\MikaruEmcora.Application.csproj", "{946C609E-3610-4959-81DF-066F8BBB3A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikaruEmcora.Application", "MikaruEmcora.Application\MikaruEmcora.Application.csproj", "{946C609E-3610-4959-81DF-066F8BBB3A18}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MikaruEmcora.Frontend", "MikaruEmcora.Frontend\MikaruEmcora.Frontend.esproj", "{40839395-E067-4055-B011-19DC2AC6DEC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{946C609E-3610-4959-81DF-066F8BBB3A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{946C609E-3610-4959-81DF-066F8BBB3A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{946C609E-3610-4959-81DF-066F8BBB3A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40839395-E067-4055-B011-19DC2AC6DEC6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
