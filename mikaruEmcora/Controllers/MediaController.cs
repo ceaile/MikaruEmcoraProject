@@ -20,16 +20,16 @@ namespace MikaruEmcora.Controllers {
 
 
         //metodos rest
-        [HttpGet("GetMediaObjByName/{mediaObjName}")]   //opcional el objeto, puede devolver una lista
-        public async Task<IEnumerable<MediaDTO>> GetMediaObjs(string mediaObjName) {
+        [HttpGet("GetMediaObjByName/{mediaTitle}")]   //opcional el objeto, puede devolver una lista
+        public async Task<IEnumerable<MediaDTO>> GetMediaObjs(string mediaTitle) {
             //adaptar:
-            if (string.IsNullOrWhiteSpace(mediaObjName)) {
+            if (string.IsNullOrWhiteSpace(mediaTitle)) {
                 var list = await mediaService.GetMediaList();
                 var mapped = mapper.Map<IEnumerable<MediaDTO>>(list);
                 return mapped;
             }
 
-            var listByName = await mediaService.GetMediaObjByName(mediaObjName);
+            var listByName = await mediaService.GetMediaObjByName(mediaTitle);
             var mappedByName = mapper.Map<IEnumerable<MediaDTO>>(listByName);
             return mappedByName;
 

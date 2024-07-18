@@ -46,8 +46,8 @@ namespace MikaruEmcora.Application.Services {
             return mediaObj;
         }
 
-        public async Task<IEnumerable<Media>> GetMediaObjByName(string mediaObjName) {
-            var mediaList = await mediaRepository.GetMediaObjByTitleAsync(mediaObjName);
+        public async Task<IEnumerable<Media>> GetMediaObjByName(string mediaTitle) {
+            var mediaList = await mediaRepository.GetMediaObjByTitleAsync(mediaTitle);
             return mediaList;
         }
 
