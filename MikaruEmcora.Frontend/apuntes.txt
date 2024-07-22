@@ -1,6 +1,8 @@
 comandos comunes:
 ng s --> iniciar servidor
 ng build --> compilar proyecto
+q+enter --> quitar
+
 
 Componentes:
 -deben estar listados en app.component.ts
@@ -18,4 +20,16 @@ Componentes:
   -crear en el componente padre ts una funcion que haga algo, en este caso simplemente mostrar el evento
   -igualar con nomenclatura en componente padre la var del componente hijo a la funcion del componente padre (ej: (dataFromChild)="onDataCheck($event)" )
 
+
+templates:
+-se puede hacer inline en el componente ts (sin ejemplo porque no es muy util)
+-se usa html y css normal
+-puedes usar los tags de los componentes dentro de otros tags de componentes
+-el componente css solo afecta al componente en cuestion, aunque tenga otro componente dentro donde la regla podria aplicarse
+-el css global está en styles.css, no en app module css
+-puedes hacer css inline en @component del componente ts (sin ejemplo)
+-puedes hacer una var con un array clave-valor de strings en el @componente (sin ejemplo)
+-se imprime una var con {{nombreVar}} en el html
+-se imprime un array con: {{nombreArray|json}}
+-se imprime un valor de un array con: {{nombreArray.clave}} 
 
