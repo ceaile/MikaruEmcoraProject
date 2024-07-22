@@ -1,0 +1,21 @@
+comandos comunes:
+ng s --> iniciar servidor
+ng build --> compilar proyecto
+
+Componentes:
+-deben estar listados en app.component.ts
+-se usan en el app.component.html usando nomenclatura <app-nombreDelComponente></app-nombreDelComponente>
+
+-para pasar variables de componente padre a componente hijo:
+  -crear var inicializada en componente hijo ts (ej.  @Input() title = ''; )
+  -crear var inicializada en componente padre ts (ej. varTitleDelHeader = 'Mikaru Emcora Portfolio'; )
+  -igualar con nomenclatura en componente padre html (ej: <app-title [varTitle]="varTitleDelHeader"></app-title>)
+  -usar variable en componente hijo html (ej: <h1>{{varTitle}}</h1> )
+
+-al reves, en este caso ejemplo con event emitter:
+  -crear var inicializada en componente hijo ts (ej: @Output() dataFromChild = new EventEmitter(); )
+  -meter en una funcion de ciclo la variable
+  -crear en el componente padre ts una funcion que haga algo, en este caso simplemente mostrar el evento
+  -igualar con nomenclatura en componente padre la var del componente hijo a la funcion del componente padre (ej: (dataFromChild)="onDataCheck($event)" )
+
+

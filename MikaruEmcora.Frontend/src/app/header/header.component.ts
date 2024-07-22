@@ -6,7 +6,7 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  pageTitle = 'MY APP';
+  varTitleDelHeader = 'Mikaru Emcora Portfolio';
 
   userInfo = {
     image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
@@ -15,7 +15,7 @@ export class HeaderComponent {
 
   constructor() { }
 
-  onDataCheck(e: any) {
+  onDataCheck(e: any) { //para probar a enviar desde componente hijo a padre con event emitter
     console.log(e);
   }
 }
