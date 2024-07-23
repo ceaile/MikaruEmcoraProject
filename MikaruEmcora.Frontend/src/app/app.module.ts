@@ -9,6 +9,8 @@ import { TitleComponent } from './title/title.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { BtnComponent } from './btn/btn.component';
 import { IconComponent } from './icon/icon.component';
+import { ProductCardComponent } from './product-card/product-card.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { IconComponent } from './icon/icon.component';
     AvatarComponent,
     BtnComponent,
     IconComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

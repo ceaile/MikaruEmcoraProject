@@ -1,7 +1,9 @@
+link del ejemplo: https://github.com/OpenWebinarsNet/Fundamentos-de-Angular-15/blob/main/src/app/components/avatar/avatar.component.ts
 comandos comunes:
 ng s --> iniciar servidor
 ng build --> compilar proyecto
 q+enter --> quitar
+ng g c nombreComponente  --> crear componente
 
 
 Componentes:
@@ -33,3 +35,40 @@ templates:
 -se imprime un array con: {{nombreArray|json}}
 -se imprime un valor de un array con: {{nombreArray.clave}} 
 
+Data Binding, ejemplo en product-card de todo
+
+property binding: para propiedades html
+  -se hace en el comonente html
+event binding: para adjudicar eventos a elementos html
+  -se crean las funciones en el componente ts y se adjudican en el componente html
+two way data binding: mezcla entre property y event binding
+  -importar FormsModule en ap module ts
+  -permite capturar contenido del input de un form
+  -como propiedad de un input en el html usando [(ngModel)]=""
+  -
+
+  Pipe: para presentar al user datos sin transformar el dato original
+  -en la documentacion oficial hay builtin pipes
+  -se usan así: <h1>{{product.price | number | currency}}</h1>
+  -se pueden concatenar y formatear (mirar documentacion)
+
+  ----a partir de aqui ya no seguimos el codigo de ejemplo--
+
+  directivas: componentes, de atributo, estructurales
+  -de atributo, en el template del componente ts
+    -ngClass:parametrizan clases, y no es excluyente de poner otras por defecto normales
+     -ngStyle: se maneja el estilo con logica, ejemplo en avatar y header
+     -ngModel 
+-estructurales:
+  -nglf, ngSwitch, ngFor, etc
+  en app.component.ts tendriamos el array de productos en bbdd para un ejemplo rapido
+  -en el export de la clase on init metes el array en una variable
+  -notacion para bucles de componentes:
+      en la etiqueta html que quieras repetir metes
+      *ngFor="let product of products"
+  -en el componente hijo creo var y desde el padre app.component.ts referencio a la var del bucle
+   en la etiqueta del componente en el app html referencio a la var que cree
+      <app-product-card>[product]="product"</app-product-card>
+  primer product es el del for y el segundo el del componente ts
+  se alojan las directivas en tags <ng-container, una para cada una>
+  se pueden usar switch e if/else, y hay muchas mas en la documentacion oficial
