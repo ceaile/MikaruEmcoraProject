@@ -4,6 +4,7 @@ ng s --> iniciar servidor
 ng build --> compilar proyecto
 q+enter --> quitar
 ng g c nombreComponente  --> crear componente
+ng m nombreModulo --> generar modulo
 
 
 Componentes:
@@ -72,3 +73,17 @@ two way data binding: mezcla entre property y event binding
   primer product es el del for y el segundo el del componente ts
   se alojan las directivas en tags <ng-container, una para cada una>
   se pueden usar switch e if/else, y hay muchas mas en la documentacion oficial
+
+  Modulos:
+  modulos contienen componentes principales, con componentes pequeños dentro agrupados
+  los modulos importan modulos
+  se declaran en el modulo ts declarations los componentes
+  el modulo de componentes.module.ts debe contener importados y declarados los componentes
+  para usar componentes en app.component.html se deben exportar componentes en el components.module.ts
+
+  hacer pages.module.ts y meterle componentes dentro
+  dejar solo el header en el app.component.html
+  importar pagesModule en app.module.ts y exportar en el pages.module.ts los componentes que se quieran usar en app.component.html
+
+
+  routing:
