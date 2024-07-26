@@ -75,7 +75,7 @@ two way data binding: mezcla entre property y event binding
   se pueden usar switch e if/else, y hay muchas mas en la documentacion oficial
 
   Modulos:
-  modulos contienen componentes principales, con componentes pequeños dentro agrupados
+  modulos contienen componentes principales, providers e incluso otros modulos, con componentes pequeños dentro agrupados
   los modulos importan modulos
   se declaran en el modulo ts declarations los componentes
   el modulo de componentes.module.ts debe contener importados y declarados los componentes
@@ -87,3 +87,13 @@ two way data binding: mezcla entre property y event binding
 
 
   routing:
+en una single page app se lidia con los componentes que puede o no ver el usuario mediante la ruta,
+que determina los componentes visibles. en lugar de hacerse mediante backend, la redireccion
+puede darse de forma dinamica
+app-routing.module.ts:
+-importa
+-exporta
+
+
+providers:
+
