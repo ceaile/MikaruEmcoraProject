@@ -4,6 +4,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { FormComponent } from './form/form.component';
 
 
 
@@ -13,6 +14,7 @@ import { AppRoutingModule } from '../app-routing.module';
     HeaderComponent,
     FooterComponent,
     PortfolioComponent,
+    FormComponent,
 
   ],
   imports: [

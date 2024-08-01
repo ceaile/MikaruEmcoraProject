@@ -1,1 +1,25 @@
-<p>contact-me works!</p>
+<div class="formulario">
+  <app-form [formGroup]="contactForm" (formSubmit)="onSubmit()">
+    <h1>Contact me!</h1>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" formControlName="name" required>
+    </div>
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" class="form-control" id="email" formControlName="email" required>
+    </div>
+    <div>
+      <label for="subject">Subject:</label>
+      <input type="text" class="form-control" id="subject" formControlName="subject" required>
+    </div>
+    <div>
+      <label for="message">Message:</label>
+      <input type="text" class="form-control" id="message" formControlName="message" required>
+    </div>
+    <button type="submit" class="btn boton">Send</button>
+  </app-form>
+</div>
+
+
+

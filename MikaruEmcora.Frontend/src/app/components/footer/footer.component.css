@@ -1,0 +1,27 @@
+/* imagen retrato */
+.portrait {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 39%;
+  height: auto;
+  z-index: 2;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: rgba(199, 188, 250, 0.7);
+  text-align: center;
+  padding: 1em 0;
+  z-index: 1;
+  border-radius: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}

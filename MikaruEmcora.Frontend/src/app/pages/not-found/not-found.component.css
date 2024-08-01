@@ -1,0 +1,54 @@
+/* para pag 404 */
+.cont-404 {
+  min-height: 100vh;
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-texto-404 {
+  position: fixed;
+  right: 100px;
+  top: 240px;
+  margin: auto;
+  max-width: 400px;
+  padding: 30px;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* para Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* para Firefox */
+  overflow-y: auto;
+}
+
+  .cont-texto-404::-webkit-scrollbar {
+    display: none;
+    /* Chrome y Safari */
+  }
+
+@media (min-width: 670px) {
+  .cont-texto-404 {
+    max-width: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .cont-texto-404 {
+    height: 520px;
+    left: 330px;
+  }
+}
+
+.texto404 {
+  font-family: 'Nerko one';
+  font-size: 45px;
+  line-height: 0.9;
+  -webkit-text-stroke: 2px #c6bee1; /* Borde con un ancho de 2 píxeles y color azul (para navegadores basados en WebKit, como Chrome y Safari) */
+  text-stroke: 2px #19191b; /* Borde con un ancho de 2 píxeles y color azul */
+}

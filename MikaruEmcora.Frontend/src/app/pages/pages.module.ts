@@ -5,6 +5,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ComponentsModule } from '../components/components.module';
 import { MediaService } from '../services/media/media.service';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -13,6 +14,7 @@ import { MediaService } from '../services/media/media.service';
     AboutMeComponent,
     ContactMeComponent,
     NotFoundComponent,
+    LoginComponent,
   ],
   imports: [
     CommonModule,

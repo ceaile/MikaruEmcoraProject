@@ -1,8 +1,22 @@
-<p>header works!</p>
-<app-title
-           [varTitle]="varTitleDelHeader"
-           (dataFromChild)="onDataCheck($event)"
-></app-title>
-<a routerLink="/aboutme" routerLinkActive="link-activo">about me</a>
-<a routerLink="/contactme">contact me</a>
+  <header>
+    <a routerLink="/">
+    <h1>MIKARU EMCORA</h1>
+    </a>
+
+    <nav>
+      <a routerLink="/about-me" routerLinkActive="link-activo-menu">About Me</a>
+      <div class="redes">
+        <a href="https://ko-fi.com/mikaruemcora" target="_blank" class="rrss">
+          <img src="css/img/kofi-logo.png" alt="kofi"></a>
+        <a href="https://twitter.com/mikaruemcora" target="_blank" class="rrss">
+          <img src="css/img/x-logo.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/mikaruemcora" target="_blank" class="rrss">
+          <img src="css/img/insta-logo.png" alt="instagram"></a>
+        <a href="https://www.tiktok.com/mikaruemcora" target="_blank" class="rrss">
+          <img src="css/img/tiktok-logo.png" alt="tiktok"></a>
+      </div>
+ 
+      <a routerLink="/contact-me">Contact</a>
+    </nav>
+  </header>
 
