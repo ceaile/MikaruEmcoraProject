@@ -2,3 +2,87 @@
     background-color: cyan;
     color: darkblue;
 }
+
+
+
+@font-face {
+  font-family: Brother;
+  src: url(../../../assets/fonts/Brother.ttf);
+}
+
+@font-face {
+  font-family: 'Nerko one';
+  src: url(../../../assets/fonts/nerko.ttf);
+}
+
+@font-face {
+  font-family: 'Readex pro';
+  src: url(../../../assets/fonts/readex.ttf);
+}
+
+header {
+  background-color: rgba(199, 188, 250, 0.7);
+  height: 115px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a,
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+header h1 {
+  font-family: Brother;
+  color: #19191b;
+  margin: 0;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #8273d4;
+  margin-top: 7px;
+  font-size: 43px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Readex Pro';
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+  nav a {
+    margin: 0 1px;
+    color: black;
+    text-decoration: none;
+  }
+
+.redes {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rrss img {
+  height: 20px;
+  width: auto;
+}
+
+.container {
+  height: 120%;
+  position: relative;
+}

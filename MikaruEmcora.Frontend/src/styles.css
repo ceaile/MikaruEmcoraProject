@@ -1,7 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+
 .background {
-  /*background-image: url('img/bg_comun.jpg');*/
-  /* no funciona con la ruta relativa img/ilustracion_fondo.jpg asi que comentado */
+  background-image: url('assets/img/bg_comun.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,4 +24,19 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+
+/* Ocultar scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome y Safari */
+}
+
+body {
+  -ms-overflow-style: none;
+  /* para Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* para Firefox */
+  overflow-y: auto;
 }
