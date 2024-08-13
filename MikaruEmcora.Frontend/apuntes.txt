@@ -97,3 +97,26 @@ app-routing.module.ts:
 
 providers:
 
+
+
+
+VERSIONES ANTERIORES (esta es 18.1.1)
+Actualización de la API del FormsModule y ReactiveFormsModule:
+
+Aunque las funcionalidades básicas del FormsModule y ReactiveFormsModule permanecen, podrían haberse realizado cambios menores o mejoras. Es útil revisar la documentación oficial para conocer los detalles específicos de las nuevas funcionalidades o cambios.
+Mejoras en el Sistema de Enrutamiento:
+
+Se han introducido mejoras en el sistema de enrutamiento, como características adicionales para el enrutamiento diferido (lazy loading), guardias de rutas, y el manejo de parámetros de consulta.
+Actualizaciones en la Sintaxis de los Decoradores:
+
+Los decoradores como @Component, @NgModule, etc., podrían tener ligeros cambios en la forma en que se configuran.
+
+Deprecaciones y Eliminaciones:
+
+Angular a menudo deprecia (y eventualmente elimina) características y APIs antiguas. Revisa las notas de la versión para identificar cualquier cosa que se haya eliminado o deprecado.
+
+Resumen de Principales Cambios a Considerar
+Rendimiento Mejorado: Aprovecha las optimizaciones y mejoras en el tamaño del bundle.
+Cambios en APIs y Decoradores: Asegúrate de entender los cambios en la configuración y el uso de decoradores.
+Actualizaciones en el Enrutamiento: Revisa las nuevas características en el sistema de enrutamiento.
+Migración y Compatibilidad: Sigue las guías de migración y verifica la compatibilidad de tus dependencias.

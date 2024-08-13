@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .background {
-  background-image: url('img/bg_comun.jpg');
-  /* no funciona con la ruta relativa img/ilustracion_fondo.jpg */
+  /*background-image: url('img/bg_comun.jpg');*/
+  /* no funciona con la ruta relativa img/ilustracion_fondo.jpg asi que comentado */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-form',
@@ -8,9 +8,12 @@ import { FormGroup } from '@angular/forms';
 })
 export class FormComponent {
   @Input() formGroup!: FormGroup;
-  @Output() formSubmit = new EventEmitter<void>();
+  @Output() formSubmit = new EventEmitter<void>(); //esto debe llamar a un service para autenticar,etc
 
-  onSubmit() {
-    this.formSubmit.emit();
+  onSubmit(): void {
+    if (this.formGroup.valid) {
+      this.formSubmit.emit(); // Emite el evento de envío si el formulario es válido
+    }
   }
+
 }

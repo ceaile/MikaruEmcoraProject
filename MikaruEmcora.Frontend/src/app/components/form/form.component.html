@@ -1,4 +1,7 @@
 <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
   <ng-content></ng-content>
+  
+  <button type="submit" [disabled]="!formGroup.valid">Submit</button>
+   
 </form>
 

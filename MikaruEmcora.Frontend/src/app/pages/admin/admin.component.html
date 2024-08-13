@@ -1,14 +1,7 @@
-<div class="formulario">
-  <app-form [formGroup]="loginForm" (formSubmit)="onSubmit()">
-    <h1>Login</h1>
-    <div>
-      <label for="username">Username:</label>
-      <input type="text" class="form-control" id="username" formControlName="username" required>
-    </div>
-    <div>
-      <label for="password">Password:</label>
-      <input type="password" class="form-control" id="password" formControlName="password" required>
-    </div>
-    <button type="submit" class="btn boton">Login</button>
-  </app-form>
-</div>
+<app-form [formGroup]="loginForm" (formSubmit)="onSubmit()">
+  <label for="username">Username</label>
+  <input id="username" formControlName="username" type="text">
+
+  <label for="password">Password</label>
+  <input id="password" formControlName="password" type="password">
+</app-form>
