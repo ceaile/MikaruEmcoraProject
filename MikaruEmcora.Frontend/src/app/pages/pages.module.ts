@@ -6,10 +6,13 @@ import { AdminComponent } from './admin/admin.component'; // en rojo "duplicate 
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { HomeComponent } from './home/home.component';
 
 import { ComponentsModule } from '../components/components.module';
+
+import { RouterModule } from '@angular/router';
 import { MediaService } from '../services/media/media.service';
-import { HomeComponent } from './home/home.component';
+
 
 
 
@@ -24,7 +27,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     CommonModule,
     ComponentsModule, //para acceder a los forms para las pags que tengan
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     //ContactMeComponent, //no necesario dado que ya esta declarado y app module importa pagesmodule

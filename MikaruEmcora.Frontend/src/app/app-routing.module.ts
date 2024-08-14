@@ -8,8 +8,9 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  { path: 'aboutMe', component: AboutMeComponent },
-  { path: 'contactMe', component: ContactMeComponent },
+  { path: 'about-me', component: AboutMeComponent },
+  { path: 'contact-me', component: ContactMeComponent },
+  { path: 'contact', redirectTo: '/contact-me', pathMatch: 'full' },
   { path: 'admin', component: AdminComponent },
   { path: 'login', redirectTo: '/admin', pathMatch: 'full' }, //no entiendo muy bien lo del pathmatch full
   { path: 'home', component: HomeComponent },

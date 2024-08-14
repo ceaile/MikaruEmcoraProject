@@ -4,19 +4,19 @@
     </a>
 
     <nav>
-      <a routerLink="/about-me" routerLinkActive="link-activo-menu">About Me</a>
+      <a [routerLink]="['/about-me']">About Me</a>
       <div class="redes">
         <a href="https://ko-fi.com/mikaruemcora" target="_blank" class="rrss">
-          <img src="assets/img/kofi-logo.png" alt="kofi"></a>
+          <img [src]="rutaIconoKofi" alt="kofi artist mikaru emcora"></a>
         <a href="https://twitter.com/mikaruemcora" target="_blank" class="rrss">
-          <img src="../../../assets/img/x-logo.png" alt="twitter"></a>
+          <img [src]="rutaIconoTwitter" alt="twitter"></a>
         <a href="https://www.instagram.com/mikaruemcora" target="_blank" class="rrss">
-          <img src="../../../assets/img/insta-logo.png" alt="instagram"></a>
+          <img [src]="rutaIconoInstagram" alt="instagram"></a>
         <a href="https://www.tiktok.com/mikaruemcora" target="_blank" class="rrss">
-          <img src="../../../assets/img/tiktok-logo.png" alt="tiktok"></a>
+          <img [src]="rutaIconoTikTok" alt="tiktok"></a>
       </div>
  
-      <a routerLink="/contact-me">Contact</a>
+      <a [routerLink]="['/contact-me']">Contact</a>
     </nav>
   </header>
 

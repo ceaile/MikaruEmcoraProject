@@ -8,10 +8,15 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 export class HeaderComponent {
   varTitleDelHeader = 'Mikaru Emcora Portfolio';
 
-  userInfo = {
-    image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
-    role: 'SALES'
-  }
+  //rutas pueden cambiar si mi prima cambia de username xd
+  rutaIconoKofi = '/assets/img/kofiLogo.png';
+  rutaIconoTwitter = '/assets/img/xLogo.png';
+  rutaIconoInstagram = '/assets/img/instaLogo.png';
+  rutaIconoTikTok = '/assets/img/tiktokLogo.png';
+
+  //pendiente: alguna forma de editar desde la interfaz el username de rrrss ella misma u ocultarlos si se elimina la cuenta
+
+
 
   constructor() { }
 

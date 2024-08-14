@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  rutaPortrait = "/assets/img/retratoMikaru.png";
+  //añadir en el futuro forma de hacer que pueda cambiar su retrato a voluntad desde su pag admin
 
 }
