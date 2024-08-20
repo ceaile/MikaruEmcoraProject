@@ -12,9 +12,24 @@ body {
   overflow-y: scroll;
 }
 
+@font-face {
+  font-family: Brother;
+  src: url(assets/fonts/Brother.ttf);
+}
+
+@font-face {
+  font-family: 'Nerko one';
+  src: url(assets/fonts/nerko.ttf);
+}
+
+@font-face {
+  font-family: 'Readex pro';
+  src: url(assets/fonts/readex.ttf);
+}
 
 .background {
-  background-image: url('assets/img/bg_comun.jpg');
+  background-image: url('assets/img/bgComun.jpg');
+  background-color: blueviolet;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

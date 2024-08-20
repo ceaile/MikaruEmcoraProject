@@ -1,11 +1,13 @@
-import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, DoCheck, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
+import { ViewEncapsulation, AfterViewInit, Component } from '@angular/core';
+import { StyleService } from '../../services/style/style.service'; //test
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
+  encapsulation: ViewEncapsulation.None //test, no funciona
 })
-export class HeaderComponent {
+export class HeaderComponent implements AfterViewInit {
   varTitleDelHeader = 'Mikaru Emcora Portfolio';
 
   //rutas pueden cambiar si mi prima cambia de username xd
@@ -17,10 +19,10 @@ export class HeaderComponent {
   //pendiente: alguna forma de editar desde la interfaz el username de rrrss ella misma u ocultarlos si se elimina la cuenta
 
 
-
-  constructor() { }
-
-  onDataCheck(e: any) { //para probar a enviar desde componente hijo a padre con event emitter
-    console.log(e);
+  constructor(private styleService: StyleService) { }
+  ngAfterViewInit(): void {
+    console.log("style service de header ts funciona");
+    
   }
+
 }
