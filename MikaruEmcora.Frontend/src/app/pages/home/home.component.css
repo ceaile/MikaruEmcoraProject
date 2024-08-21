@@ -1,0 +1,34 @@
+@media (min-width: 768px) { /* tamaño pc */
+  .contenedor-imgs {
+    float: right;
+    max-width: 60%;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width:768px) {
+  .contenedor-imgs {
+    max-width: 100%;
+    margin-top: 20%;
+  }
+}
+
+.contenedor-columna-izq {
+  width: 45%;
+  margin: 0px;
+  float: left;
+}
+
+.contenedor-columna-dcha {
+  width: 55%;
+  margin: 0px;
+  float: right;
+}
+
+.imgs-portf {
+  border-radius: 50px;
+  padding: 5%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
