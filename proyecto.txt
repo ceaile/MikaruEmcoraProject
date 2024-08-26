@@ -1,6 +1,6 @@
 MIKA'S PORTFOLIO PROJECT
 
-pages:
+pages/interfaces:
 - home (portfolio browsing)
 - about me
 - contact me (contact form with automated email)
@@ -24,4 +24,17 @@ functionalities:
 	home:
 		- should enable video in some way
 		- should accomodate different image size
+
+
+steps:
+. move from php/html to new frameworks (.net core, angular)
+	. develop new pages (login, admin)
+. build core functionalities on new frameworks
+	. login working
+	. contact form working
+	.  database conn
+. develop new functionalities
+	.  crud portfolio media objs
+	.  crud social media links
+	. 
 		

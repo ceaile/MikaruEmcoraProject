@@ -8,24 +8,25 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrl: './admin.component.css'
 })
 export class AdminComponent implements OnInit {
-
-  loginForm!: FormGroup; //error aqui: "property loginform has no inititializer and is not defininetely assigned in the constructor"
-
   constructor(private fb: FormBuilder) { }
+  
+
+  adminForm!: FormGroup;
+
+
 
   ngOnInit(): void {
-    this.loginForm = this.fb.group({
-      username: ['', Validators.required],
-      password: ['', Validators.required]
+    this.adminForm = this.fb.group({
+      //validations
     });
   }
 
   onSubmit(): void {
-    if (this.loginForm.valid) {
-      const loginData = this.loginForm.value;
-      console.log('Login data:', loginData);
+    if (this.adminForm.valid) {
+      const portfolioData = this.adminForm.value;
+      console.log('portfolio crud data:', portfolioData);
       // Lógica para enviar datos al servidor
     }
   }
-
+  
 }

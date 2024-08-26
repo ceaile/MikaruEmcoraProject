@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { AdminComponent } from './admin/admin.component'; // en rojo "duplicate identifier
+import { AdminComponent } from './admin/admin.component';
+import { LoginComponent } from './login/login.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -16,13 +17,15 @@ import { MediaService } from '../services/media/media.service';
 
 
 
+
 @NgModule({
   declarations: [
+    HomeComponent,
     AboutMeComponent,
     ContactMeComponent,
     NotFoundComponent,
+    LoginComponent,
     AdminComponent,
-    HomeComponent,
   ],
   imports: [
     CommonModule,
