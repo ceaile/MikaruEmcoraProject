@@ -21,7 +21,6 @@ export class HeaderComponent implements AfterViewInit {
 
   constructor(private styleService: StyleService) { }
   ngAfterViewInit(): void {
-    console.log("style service de header ts funciona");
     
   }
 

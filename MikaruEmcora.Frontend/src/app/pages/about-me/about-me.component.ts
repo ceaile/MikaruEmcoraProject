@@ -14,12 +14,14 @@ export class AboutMeComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnInit(): void {
     this.styleService.setBackgroundImage('assets/img/bgAboutMika.jpg');
     this.styleService.setBackgroundColor(this.colorAbout);
+
+
   }
 
   ngAfterViewInit(): void { //not working, volverlo a poner en oninit
-    console.log("style service ejecutado desde about component");
     this.styleService.setHeaderColor(this.colorAbout);
     this.styleService.setFooterColor(this.colorAbout);
+    this.styleService.hidePortraitElement();
   }
 
   ngOnDestroy(): void {
@@ -27,6 +29,8 @@ export class AboutMeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.styleService.resetBackgroundColor();
     this.styleService.resetHeaderColor();
     this.styleService.resetFooterColor();
+
+    this.styleService.showPortraitElement();
   }
 }
 

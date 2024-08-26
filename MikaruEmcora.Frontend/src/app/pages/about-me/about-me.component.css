@@ -19,82 +19,13 @@ body {
   }
 
 
-
-body a,
-body a:link,
-body a:visited,
-body a:hover,
-body a:active {
-  text-decoration: none;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: underline;
   color: inherit;
-}
-
-
-/* antiguo codigo de about - no borrar todavia */
-.container {
-  min-height: 100vh;
-  position: relative;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.contenedorTextoAbout {
-  position: fixed;
-  right: 100px;
-  top: 240px;
-  margin: auto;
-  max-width: 400px;
-  background-color: rgba(216, 238, 241, 0.7);
-  padding: 50px;
-  border-radius: 15px;
-  height: 600px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  /* para Internet Explorer 10+ */
-  scrollbar-width: none;
-  /* para Firefox */
-  overflow-y: auto;
-}
-
-contenedorTextoAbout::-webkit-scrollbar {
-  display: none;
-  /* Chrome y Safari */
-}
-
-@media (min-width: 670px) {
-  .contenedorTextoAbout {
-    background-color: rgba(216, 238, 241, 0.7);
-    border-radius: 15px;
-    max-width: none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    /* para Internet Explorer 10+ */
-    scrollbar-width: none;
-    /* para Firefox */
-    overflow-y: auto;
-  }
-}
-
-@media (max-width: 992px) {
-  .contenedorTextoAbout {
-    background-color: rgba(216, 238, 241, 0.7);
-    border-radius: 15px;
-    height: 520px;
-    left: 330px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    /* para Internet Explorer 10+ */
-    scrollbar-width: none;
-    /* para Firefox */
-    overflow-y: auto;
-  }
 }
 
 
@@ -102,12 +33,21 @@ contenedorTextoAbout::-webkit-scrollbar {
 /* nuevas clases de about */
 @media (min-width: 768px) { /* tamaño pc */
   .cont-about {
-    /* background-color: rgba(216, 238, 241, 0.7); */
-    border-radius: 15px;
+    background-color: rgba(216, 238, 241, 0.7);
     float: right;
-    max-width: 80%; /* no parece funcionar... */
-    margin-top: 15%;
-    padding-right: 15%;
+    margin-right: 20px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px; */
+
+    height: calc(100vh - 165px); /* Ajusta según la altura del header y footer */
+    margin-top: 125px; /* Altura del header */
+    margin-bottom: 50px; /* Altura del footer */
+    overflow: auto;
+    border-radius: 15px;
+    max-width: 80%;
+    padding: 0px;
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
   }
 
   .textoScroll {
@@ -131,4 +71,13 @@ contenedorTextoAbout::-webkit-scrollbar {
     font-size: 45px;
     line-height: 0.9;
   }
+}
+
+.cont-about::-webkit-scrollbar {
+  display: none; /* Para navegadores basados en WebKit */
+}
+
+.cont-about {
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+  scrollbar-width: none; /* Para Firefox */
 }

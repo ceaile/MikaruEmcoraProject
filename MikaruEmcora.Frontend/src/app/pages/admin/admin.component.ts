@@ -25,7 +25,7 @@ export class AdminComponent implements OnInit {
     if (this.adminForm.valid) {
       const portfolioData = this.adminForm.value;
       console.log('portfolio crud data:', portfolioData);
-      // Lógica para enviar datos al servidor
+      // logic to server
     }
   }
   

@@ -41,6 +41,13 @@ export class StyleService {
     }
   }
 
+  hidePortraitElement() {
+    const portraitElement = document.querySelector('.selector-portrait');
+    console.log("portrait should diappear");
+    if (portraitElement) {
+      portraitElement.setAttribute('style', `display: none`);
+    }
+  }
 
   resetHeaderColor() {
     document.querySelector('header')?.setAttribute('style', `background-color: ${this.colorComun}`);
@@ -49,5 +56,18 @@ export class StyleService {
   resetFooterColor() {
     document.querySelector('footer')?.setAttribute('style', `background-color: ${this.colorComun}`);
   }
+
+
+  //footer portrait hide and show
+
+
+  showPortraitElement() {
+    const portraitElement = document.querySelector('.selector-portrait');
+    console.log("portrait should reappear");
+    if (portraitElement) {
+      portraitElement.setAttribute('style', `display: block`);
+    }
+  }
+
 
 }
