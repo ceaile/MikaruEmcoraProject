@@ -1,0 +1,27 @@
+MIKA'S PORTFOLIO PROJECT
+
+pages:
+- home (portfolio browsing)
+- about me
+- contact me (contact form with automated email)
+- login (login form)
+- admin (mainly file management)
+
+functionalities:
+	admin:
+		- hide social media icon
+		- change social media link
+		- upload icon for new social media link
+		- change contact email for receiving emails
+		- upload new images to portfolio
+		- remove images to portfolio
+		- add link to images
+	login:
+		-log in (duh xD)
+	contact:
+		- collect email info in database
+		- send the email
+	home:
+		- should enable video in some way
+		- should accomodate different image size
+		
