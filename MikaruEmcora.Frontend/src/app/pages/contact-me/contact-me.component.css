@@ -1,18 +1,18 @@
 
 form h1 {
-  font-family: 'Nerko one';
+  font-family: 'Nerko one' !important;
   color: #19191b;
 }
 
 label {
   color: #19191b;
-  font-family: 'Readex pro';
+  font-family: 'Readex pro' !important;
   font-weight: normal;
 }
 
 input {
-  width: 400px;
-  margin: 5px;
+  /*width: 400px;*/
+  margin-right: 0px;
   border-radius: 150px !important;
 }
 
@@ -27,8 +27,7 @@ input {
 
 button {
   border-radius: 150px !important;
-  padding: 15px 20px 15px 20px !important;
-  margin-top: 30px !important;
+  padding: 10px 20px 10px 20px !important;
   font-family: 'Readex pro' !important;
   color: rgb(231, 212, 231) !important;
   background-color: #19191b !important;
@@ -36,6 +35,10 @@ button {
   /* Asegura que el botón sea un bloque */
   margin: 0 auto !important;
   /* Centra horizontalmente usando margen */
+}
+
+.boton {
+  margin-top: 5px !important;
 }
 
 
@@ -49,13 +52,18 @@ button {
 
   /* pc */
   .formulario {
-    float: right;
-    width: 60%;
-    margin-top: 15%;
-    margin-right: 5%;
     background-color: rgba(199, 188, 250, 0.7);
-    padding: 50px;
+    float: right;
+    margin-right: 40px;
+    height: calc(100vh - 165px);
+    margin-top: 125px;
+    margin-bottom: 50px;
+    overflow: auto;
     border-radius: 15px;
+    width:50%;
+    max-width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
   }
 }
 
@@ -63,14 +71,28 @@ button {
 @media (max-width: 768px) {
 
   .formulario {
-    max-width: 100%;
-    margin-top: 20%;
-    overflow: scroll;
     background-color: rgba(199, 188, 250, 0.7);
-    padding: 50px;
     border-radius: 15px;
+    padding: 10px;
+    max-width: 100%;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    height: calc(100vh - 165px);
+    overflow: scroll;
+    box-sizing: border-box;
   }
   input {
-    width: 380px;
+    margin-right: 0px;
+    /* width: 380px; */
+    /*width: calc(100vh - 50px);*/
   }
+}
+
+.formulario::-webkit-scrollbar {
+  display: none; /* Para navegadores basados en WebKit */
+}
+
+.formulario {
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+  scrollbar-width: none; /* Para Firefox */
 }

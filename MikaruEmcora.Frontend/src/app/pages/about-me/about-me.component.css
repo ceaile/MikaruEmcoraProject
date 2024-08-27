@@ -40,14 +40,14 @@ a:active {
     padding-top: 10px;
     padding-bottom: 10px; */
 
-    height: calc(100vh - 165px); /* Ajusta según la altura del header y footer */
-    margin-top: 125px; /* Altura del header */
-    margin-bottom: 50px; /* Altura del footer */
+    height: calc(100vh - 165px); 
+    margin-top: 125px;
+    margin-bottom: 50px; 
     overflow: auto;
     border-radius: 15px;
     max-width: 80%;
     padding: 0px;
-    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    box-sizing: border-box; 
   }
 
   .textoScroll {
