@@ -8,7 +8,7 @@ using MikaruEmcora.Core.Entities;
 
 namespace MikaruEmcora.Controllers {
     [ApiController]
-    [Route("[controller]")] //
+    [Route("[controller]")]      //testing:: https://localhost:7191/Media/GetMediaObjByName/mediaTitle
     public class MediaController : ControllerBase {
         private readonly IMediaService mediaService;
         private readonly IMapper mapper;  //intermediario entre el dto y la entidad
@@ -21,6 +21,7 @@ namespace MikaruEmcora.Controllers {
 
         //metodos rest
         [HttpGet("GetMediaObjByName/{mediaTitle}")]   //opcional el objeto, puede devolver una lista
+        
         public async Task<IEnumerable<MediaDTO>> GetMediaObjs(string mediaTitle) {
             //adaptar:
             if (string.IsNullOrWhiteSpace(mediaTitle)) {
