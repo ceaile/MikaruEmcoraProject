@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact-me',
@@ -9,7 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class ContactMeComponent implements OnInit {
   contactForm!: FormGroup;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.contactForm = this.fb.group({
@@ -22,7 +23,13 @@ export class ContactMeComponent implements OnInit {
 
   onSubmit() {
     if (this.contactForm.valid) {
-      console.log(this.contactForm.value); //luego tendra mas cosas, pag de confirmacion, etc
+      this.http.post('https://your-backend-url/api/contact', this.contactForm.value) //for now hardcoded, might do it cleaner later
+        .subscribe(response => {
+          console.log('Form sent correctly', response);
+          // Aquí puedes agregar la lógica para mostrar una página de confirmación
+        }, error => {
+          console.error('Error in sending email', error);
+        });
     }
   }
 }

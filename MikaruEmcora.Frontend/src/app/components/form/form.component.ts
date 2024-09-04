@@ -15,5 +15,4 @@ export class FormComponent {
       this.formSubmit.emit(); // Emite el evento de envío si el formulario es válido
     }
   }
-
 }
