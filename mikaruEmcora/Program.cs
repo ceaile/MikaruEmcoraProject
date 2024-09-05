@@ -8,7 +8,7 @@ using MikaruEmcora.Infraestructure.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
@@ -49,7 +49,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {
@@ -58,12 +58,8 @@ if (app.Environment.IsDevelopment()) {
 }              
 
 app.UseCors(MyAllowSpecificOrigins);
-
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
 

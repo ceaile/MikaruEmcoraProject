@@ -12,6 +12,7 @@ namespace MikaruEmcora.Infraestructure.Data {
         public MikaruEmcoraContext(DbContextOptions options) : base(options) { }
         public DbSet<Media> MediaObjs {get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<EmailReceived> EmailsReceived { get; set; }
 
     }
 }
